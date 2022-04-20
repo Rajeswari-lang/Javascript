@@ -1,0 +1,26 @@
+<html>
+<head>
+Average of Numbers!!
+
+</head>
+<body bgcolor="aqua">
+<h2>Student Marks:</h2><br>
+<p id="std1">10</p>
+<p id="std2">15</p>
+<p id="std3">25</p>
+<p id="std4">40</p>
+<p id="std5">28</p>
+<h2>Average of 5 Students:</h2>
+<p id="Avg"></p>
+
+<script>
+var std1=parseInt(document.getElementById("std1")).innerHTML);
+var std2=parseInt(document.getElementById("std2")).innerHTML);
+var std3=parseInt(document.getElementById("std3")).innerHTML);
+var std4=parseInt(document.getElementById("std4")).innerHTML);
+var std5=parseInt(document.getElementById("std5")).innerHTML);
+var Average=(std1+std2+std3+std4+std5)/5;
+document.getElementById("Avg").innerHTML=Average;
+</script>
+</body>
+</html>
